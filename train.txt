@@ -1,0 +1,5 @@
+cd ~/yolo_ws/src/darknet
+
+./darknet detector train .data .cfg neural network gpus
+
+./darknet detector train /home/amr-server/yolo_ws/src/YOLO_data/YOLO_parkinglot_1000/cfg/obj.data /home/amr-server/yolo_ws/src/YOLO_data/YOLO_parkinglot_1000/cfg/yolov3.cfg darknet53.conv.74 -gpus 0
